@@ -1,0 +1,6 @@
+.checkout_ad{
+    display: flex;
+    width: 100%;
+    object-fit: contain ;
+    margin-bottom: 10px;
+}
