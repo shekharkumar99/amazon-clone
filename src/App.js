@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./Header.js";
 import Home from "./Home.js";
 import Checkout from "./Checkout.js"
+import Login from './Login';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Switch>
         <Route path = "/Checkout"> <Header /><Checkout/></Route>
        
-          <Route path="/Login"></Route>
+          <Route path="/Login">
+            <Login />
+          </Route>
           <Route path ="/">
             <Header />
             <Home />
